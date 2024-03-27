@@ -1,0 +1,21 @@
+import java.util.Scanner;
+/**
+*Student Name: L Kwinana
+* Student Number: ST10445079
+*/
+public class Government {
+    public static void main(String[] args) {
+        
+        Scanner keyboard = new Scanner (System.in);
+      
+        System.out.print("Enter your First Name: " );
+        String firstname = keyboard.nextLine();
+        
+        System.out.print("Enter your Last Name: " );
+        String lastname = keyboard.nextLine();
+        
+        String fullname = (firstname +" "+ lastname);
+        System.out.print(fullname);                
+    }
+}
+        
