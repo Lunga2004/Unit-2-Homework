@@ -1,0 +1,25 @@
+import java.util.Scanner;
+/**
+*Student Name: L Kwinana
+* Student Number: ST10445079
+*/
+public class Allcaps {
+    public static void main(String[] args) {
+        Scanner keyboard = new Scanner(System.in);
+
+        System.out.print("Enter your First Name: ");
+        String firstName = keyboard.nextLine();
+
+        System.out.print("Enter your Last Name: ");
+        String lastName = keyboard.nextLine();
+
+        String fullName = firstName + " " + lastName;
+        char firstInitial = firstName.charAt(0);
+
+        System.out.println("Your first initial is: " + firstInitial);
+
+        fullName = fullName.toUpperCase();
+
+        System.out.println("Your full name is: " + fullName + " and it has " + fullName.length() + " characters.");
+    }
+}
