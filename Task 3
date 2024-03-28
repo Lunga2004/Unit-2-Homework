@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+/**
+ *
+ * @author L Kwinana
+ * Student number: ST10445079
+ */
+public class Mileage {
+   public static void main(String[] args)
+   {
+       // This program will calculate mileage
+       Scanner keyboard = new Scanner(System.in);
+       
+       System.out.print("How many mile's have you driven? ");
+       double miles = keyboard.nextDouble();
+       
+       System.out.print("How many gallons were used? ");
+       double gallons = keyboard.nextDouble();
+       
+       double perGallon = miles / gallons;
+       System.out.print(perGallon + " MPG ");
+               
+   }
+}
